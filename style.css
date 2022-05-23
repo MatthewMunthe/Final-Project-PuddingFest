@@ -1,0 +1,79 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: #fffdfd;
+}
+
+h1{
+    color: yellow;
+}
+
+.landing-page .navbar{
+    background-color: #1bb46c;
+}
+
+.landing-page a{
+    cursor: pointer;
+}
+
+.landing-page .navbar .navbar-brand{
+    color: #99cced;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, #40788d, #84acbb);
+}
+
+.event-page img, .contact-us img{
+    max-width:100%;
+    max-height:100%;
+}
+
+.event-page .event-card .card:hover{
+    cursor: pointer;
+    box-shadow: 5px 10px 30px;
+}
+
+.contact-us{
+    background-color: #959595;
+}
+
+.contact-us h5, .contact-us a{
+    color: #fffdfd;
+    text-decoration: none;
+}
+
+.event-card{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.event-card.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+.timeline{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.timeline.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.registration-form .container{
+    background-color: #40788d;
+}
+
+.registration-form .container form{
+    color: azure;
+    background-color: #40788d;
+}
